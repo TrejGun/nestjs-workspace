@@ -1,0 +1,36 @@
+{
+  "author": {
+    "email": "oleg@ethberry.io",
+    "name": "Oleg Gun",
+    "url": "https://ethberry.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/nestjs-workspace/issues"
+  },
+  "dependencies": {
+    "@nestjs/common": "11.1.10",
+    "@nestjs/config": "4.0.2",
+    "@nestjs/core": "11.1.10",
+    "@nestjs/platform-express": "11.1.10",
+    "@nestjs/testing": "11.1.10",
+    "@safe-global/protocol-kit": "6.1.2",
+    "@safe-global/types-kit": "3.0.0",
+    "viem": "2.43.3"
+  },
+  "devDependencies": {
+    "@types/jest": "30.0.0",
+    "jest": "30.2.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./dist/main.js",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "dev": "nest start --watch",
+    "start": "nest start"
+  },
+  "title": "NestJS Workspace",
+  "version": "0.0.1"
+}

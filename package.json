@@ -1,0 +1,36 @@
+{
+  "author": {
+    "email": "oleg@ethberry.io",
+    "name": "Oleg Gun",
+    "url": "https://ethberry.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/trejgun/nestjs-workspace/issues"
+  },
+  "dependencies": {
+    "@nestjs/cli": "11.0.14"
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trejgun/nestjs-workspace/"
+  },
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "clean": "sh scripts/clean.sh",
+    "lint": "npm run lint --workspaces --if-present",
+    "prepare": "husky"
+  },
+  "title": "NestJS Workspace",
+  "version": "0.0.1"
+}
