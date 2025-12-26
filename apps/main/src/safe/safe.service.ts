@@ -5,7 +5,7 @@ import { waitForTransactionReceipt } from "viem/actions";
 import { privateKeyToAccount } from "viem/accounts";
 import { polygon } from "viem/chains";
 
-// import Safe from "@safe-global/protocol-kit";
+// import Safe from "@main-global/protocol-kit";
 const Safe = require("@safe-global/protocol-kit");
 
 @Injectable()

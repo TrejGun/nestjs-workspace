@@ -15,15 +15,6 @@
       "compilerOptions": {
         "tsConfigPath": "apps/main/tsconfig.app.json"
       }
-    },
-    "safe": {
-      "type": "application",
-      "root": "apps/safe",
-      "entryFile": "main",
-      "sourceRoot": "apps/safe/src",
-      "compilerOptions": {
-        "tsConfigPath": "apps/safe/tsconfig.app.json"
-      }
     }
   }
 }
